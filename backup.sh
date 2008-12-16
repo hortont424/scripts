@@ -1,5 +1,4 @@
 rsync -rlDczPv --delete ~/Desktop/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Desktop/
-rsync -rlDczPv --delete ~/Code/* Jayne.local:/srv/share/public/Code/
 rsync -rlDczPv --delete ~/Pictures/* Jayne.local:/srv/share/public/Photos/
 rsync -rlDczPv --delete ~/Documents/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Documents/
 rsync -rlDczPv --delete ~/Music/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Music/
