@@ -1,8 +1,8 @@
-rsync -rlDczPv --delete ~/Desktop/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Desktop/
-rsync -rlDczPv --delete ~/Pictures/* Jayne.local:/srv/share/public/Photos/
-rsync -rlDczPv --delete ~/Documents/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Documents/
-rsync -rlDczPv --delete ~/Music/* Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Music/
-rsync -rlDczPv --delete /Library/Fonts Jayne.local:/srv/share/private/hortont/Backups/Kaylee/
-rsync -rlDczPv --delete /Applications Jayne.local:/srv/share/private/hortont/Backups/Kaylee/
-rsync -rlDczPv --delete "/Users/hortont/Library/Application Support/Adium 2.0/" Jayne.local:/srv/share/private/hortont/Backups/Kaylee/Logs/
-ssh Jayne.local perl /srv/share/www/aperture/aperture.pl
+rsync -rlDczPv --delete-after ~/Desktop/* jayne.local:/srv/share/private/hortont/Backups/Kaylee/Desktop/
+rsync -rlDczPv --delete-after ~/Pictures/* jayne.local:/srv/share/public/Photos/
+rsync -rlDczPv --delete-after ~/Documents/* jayne.local:/srv/share/private/hortont/Backups/Kaylee/Documents/
+rsync -rlDczPv --delete-after ~/Music/iTunes/iTunes\ Music/* jayne.local:/srv/share/Public/Music/
+rsync -rlDczPv --delete-after /Library/Fonts jayne.local:/srv/share/private/hortont/Backups/Kaylee/
+rsync -rlDczPv --delete-after /Applications jayne.local:/srv/share/private/hortont/Backups/Kaylee/
+rsync -rlDczPv --delete-after "/Users/hortont/Library/Application Support/Adium 2.0/" jayne.local:/srv/share/private/hortont/Backups/Kaylee/Logs/
+ssh jayne.local perl /srv/share/www/aperture/aperture.pl
