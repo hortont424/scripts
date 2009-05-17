@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Emily Boone</name>
+    <years>2008-2009</years>
+    <class id='band-music' teacher='Edmonds' room='Music' name='Band' />
+    <class id='ta-???' teacher='???' room='???' name='TA' />
+    <class id='pri-220' teacher='Desrosiers' room='220' name='Principals of Physics' />
+    <class id='bus2-152' teacher='Schiller' room='152' name='Business &amp; Technology 2' />
+    <class id='un-111' teacher='???' room='111' name='International Politics &amp; UN' />
+    <class id='apeur-111' teacher='Price' room='111' name='AP European History' />
+    <class id='pe1-gym' teacher='Staff' room='Gym' name='Physical Education' />
+    <class id='sese-227' teacher='McCannell' room='227' name='Senior Seminar' />
+    <class id='aplit-117' teacher='Cole' room='117' name='AP English Literature' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='???-???' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='aplit-117' />
+            <mod id='bus2-152' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-???' />
+            <mod id='pe1-gym' />
+            <mod id='apeur-111' />
+            <mod id='???-???' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='???-???' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='aplit-117' />
+            <mod id='???-???' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-???' />
+            <mod id='un-111' />
+            <mod id='apeur-111' />
+            <mod id='sese-227' />
+        </day>
+    </semester>
+</schedule>

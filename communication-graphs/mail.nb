@@ -1,0 +1,103 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3522,         93]
+NotebookOptionsPosition[      3205,         77]
+NotebookOutlinePosition[      3541,         92]
+CellTagsIndexPosition[      3498,         89]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{
+  "Import", "[", 
+   "\"\</Users/hortont/Documents/Projects/Communications Graphs/out.csv\>\"", 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.4214949448622303`*^9, 3.421495002769302*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1:eJxVlA9ojHEYx19T5E+8NFlINlpo5d2YZozbxmwiLylF1pi/kb2UUmq9pZRS
+3pSUUkopJV4iIiJSSu11pZRwbDuO2+7ndufs5nbufd57nnyvdrdPz6/38/x7
+f+V7urbuK9E07Vjhz/8tfMxZn942Bv9WhApf7lHhVT7rL4SrfbZmfi6yHfLZ
+O8ysLfDZeCZc6rNTGoG4Oihc47P5RHg1+ad9Ya4i/37hFeR/JGyQf8pXzmct
++TuZtcXkf4CsJvUyzyN/h/BS8t9jtjvIP6GP4/R8a5fwevLf6YP8jXH9zPXk
+38FsbyD/LYk3kH9sFNjdHsX6b0ahXkv7xryS/NuEG8l/Q3gN+XN4Xm35zvlQ
+/uZ1Zq2O/FlkfXMM+mddE15G/kwMnm9s/AFx56ow7YtKCVeSv+0n7Id7RXg5
++ZPMdhP5W+JQr3c5Dv0yEnH0Nw/g/C8J0z6b8QHorxsahPnpFwfhvBVjLu5/
+QwLyNS4koD4nKjyH/PUK9++8gnzdXgU+ve4XczP5zwnT++NFhCvIX5tkLiP/
+WWGd/B+T4DNrhiB/94xwE/k/DMF8rSUpmJd3OgX1Ge9T6K9KQz+UnYZ5me/S
+0A930W/uL9WrdzNrC8kfRvYqM1CfcSoD/XF6MtBPNf8P+k8KB/fPG2G6D/Ty
+YZz/iWGox3uNcWNulrmN/Mez0E/1itmm/TVnjzC3kL9LmM7rL0fgvFX2l5/X
+Sv4jzPY68j+XePD+z8jBfa4O5aA/5tMczNedPgr7oR8YhXysx8LB/k/N8/nA
+vzcP83Me5rH+yVoY3r/dwsH9c5+5OP+JYzge3P/tzEE/vLsSD96/8SXh/33O
+TuFa8t9mLtTTusnojjBHOkP/ANKCiHc=
+     "]], 
+    LineBox[{{1.2090448*^9, 159.}, {1.209096*^9, 111.}, {1.2091824*^9, 46.}, {
+     1.2092688*^9, 52.}, {1.2093552*^9, 158.}, {1.2094416*^9, 80.}, {
+     1.209528*^9, 64.}, {1.2096144*^9, 81.}, {1.2097008*^9, 73.}, {
+     1.2097872*^9, 25.}, {1.2098736*^9, 57.}, {1.20996*^9, 60.}, {
+     1.2100464*^9, 83.}, {1.2101328*^9, 46.}, {1.2102192*^9, 45.}, {
+     1.2103056*^9, 91.}, {1.210392*^9, 58.}, {1.2104784*^9, 78.}, {
+     1.2105648*^9, 125.}, {1.2106512*^9, 155.}, {1.2107376*^9, 98.}, {
+     1.210824*^9, 80.}, {1.2109104*^9, 72.}, {1.2109968*^9, 65.}, {
+     1.2110832*^9, 37.}, {1.2111696*^9, 87.}, {1.211256*^9, 62.}, {
+     1.2113424*^9, 72.}, {1.2114288*^9, 78.}, {1.2115152*^9, 44.}, {
+     1.2116016*^9, 15.}, {1.211688*^9, 20.}, {1.2117744*^9, 94.}, {
+     1.2118513315068493`*^9, 159.}}], 
+    LineBox[{{1.21186848*^9, 159.}, {1.2119472*^9, 77.}, {1.2120336*^9, 
+     102.}, {1.21212*^9, 95.}, {1.2122064*^9, 117.}, {1.2122928*^9, 110.}, {
+     1.2123792*^9, 110.}, {1.2124656*^9, 37.}}]}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{1.2*^9, 0},
+  ImageSize->{880., Automatic},
+  PlotRange->{{1.1990736*^9, 1.2124656*^9}, {0., 159.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{
+    Scaled[0.02], 
+    Scaled[0.02]}]], "Output",
+ CellChangeTimes->{{3.4214950035284157`*^9, 3.421495013315696*^9}}]
+}, Open  ]]
+},
+WindowSize->{1201, 799},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"6.0 for Mac OS X x86 (32-bit) (March 13, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 247, 6, 27, "Input"],
+Cell[840, 31, 2349, 43, 564, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

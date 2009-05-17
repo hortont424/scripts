@@ -1,0 +1,200 @@
+<html>
+<head>
+<style>
+.nbar
+{
+	position: fixed;
+	bottom: 20px;
+	background: #ADC8DC;
+	width: 15px;
+}
+
+.obar
+{
+	position: fixed;
+	bottom: 20px;
+	background: #84CA82;
+	width: 15px;
+}
+
+.xlabel
+{
+	position: fixed;
+	bottom: 0px;
+	width: 15px;
+	text-align: center;
+}
+
+#data
+{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	width: 350px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	background: white;
+}
+
+h1
+{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#key
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.line
+{
+	width: 100px;
+	height: 1px;
+	background: lightgray;
+	position: fixed;
+	bottom: 0px;
+	left: 20px;
+}
+
+.newitem
+{
+	display: inline;
+	color: #ADC8DC;
+}
+
+.olditem
+{
+	display: inline;
+	color: #84CA82;
+}
+
+.olditem>a
+{
+	color: #84CA82;
+}
+
+#info
+{
+	font-weight: normal;
+	font-size: 16px;
+	padding-top: 5px;
+	color: gray;
+}
+
+</style>
+<script>
+function setData(newData)
+{
+	document.getElementById('data').innerHTML=newData;
+}
+</script>
+</head>
+<body>
+<div id='key'><div style='color: #ADC8DC;'>New</div><div style='color: #84CA82;'>Update</div><div id='info'></div></div>
+
+<script>
+document.getElementById('info').innerHTML = "Max. Time: 24 days<br>Avg. Updated Time: 4.9 days<br>Avg. New Time: 3.5 days<br>";
+</script>
+
+<div class='line' style='bottom: 20px; width: 495px;'></div>
+<div class='line' style='bottom: 40px; width: 495px;'></div>
+<div class='line' style='bottom: 60px; width: 495px;'></div>
+<div class='line' style='bottom: 80px; width: 495px;'></div>
+<div class='line' style='bottom: 100px; width: 495px;'></div>
+<div class='line' style='bottom: 120px; width: 495px;'></div>
+<div class='line' style='bottom: 140px; width: 495px;'></div>
+<div class='line' style='bottom: 160px; width: 495px;'></div>
+<div class='line' style='bottom: 180px; width: 495px;'></div>
+<div class='line' style='bottom: 200px; width: 495px;'></div>
+<div class='line' style='bottom: 220px; width: 495px;'></div>
+<div class='line' style='bottom: 240px; width: 495px;'></div>
+<div class='line' style='bottom: 260px; width: 495px;'></div>
+<div class='line' style='bottom: 280px; width: 495px;'></div>
+<div class='line' style='bottom: 300px; width: 495px;'></div>
+<div class='line' style='bottom: 320px; width: 495px;'></div>
+<div class='line' style='bottom: 340px; width: 495px;'></div>
+<div class='line' style='bottom: 360px; width: 495px;'></div>
+<div class='line' style='bottom: 380px; width: 495px;'></div>
+<div class='line' style='bottom: 400px; width: 495px;'></div>
+<div id='data'></div>
+<div class='obar' style='height: 120px; left:20px;' onmouseover='setData("<h1>1 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2499/\">LiveClick 0.1.5.3</a></div><br/><div class=\"newitem\">serjudio.com Toolbar 1.0.1.19</div><br/><div class=\"newitem\">bracketlinker 0.3</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2867/\">Facebook O-State Cowboy Style 1.3</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2140/\">FavLoc 1.1</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2433/\">30 Boxes Quick Add 0.9.2</a></div>");'></div>
+<div class='nbar' style='height: 40px; left:20px;' onmouseover='setData("<h1>1 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2499/\">LiveClick 0.1.5.3</a></div><br/><div class=\"newitem\">serjudio.com Toolbar 1.0.1.19</div><br/><div class=\"newitem\">bracketlinker 0.3</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2867/\">Facebook O-State Cowboy Style 1.3</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2140/\">FavLoc 1.1</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2433/\">30 Boxes Quick Add 0.9.2</a></div>");'></div>
+<div class='xlabel' style='left:20px;'>1</div>
+<div class='obar' style='height: 120px; left:40px;' onmouseover='setData("<h1>2 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1709/\">WataCrackaz AutoSMS 0.4</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2067/\">Okapiland Search Toolbar 1.2</a></div><br/><div class=\"newitem\">Bazzacuda Image Saver 1.8</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1720/\">termBlaster (Firefox edition) 1.3.5</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2691/\">Poster 1.2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/636/\">PDF Download 0.7.3</a></div>");'></div>
+<div class='nbar' style='height: 20px; left:40px;' onmouseover='setData("<h1>2 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1709/\">WataCrackaz AutoSMS 0.4</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2067/\">Okapiland Search Toolbar 1.2</a></div><br/><div class=\"newitem\">Bazzacuda Image Saver 1.8</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1720/\">termBlaster (Firefox edition) 1.3.5</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2691/\">Poster 1.2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/636/\">PDF Download 0.7.3</a></div>");'></div>
+<div class='xlabel' style='left:40px;'>2</div>
+<div class='obar' style='height: 20px; left:60px;' onmouseover='setData("<h1>3 days</h1><div class=\"newitem\">Web Research Professional 0.91</div>");'></div>
+<div class='nbar' style='height: 20px; left:60px;' onmouseover='setData("<h1>3 days</h1><div class=\"newitem\">Web Research Professional 0.91</div>");'></div>
+<div class='xlabel' style='left:60px;'>3</div>
+<div class='obar' style='height: 120px; left:80px;' onmouseover='setData("<h1>4 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1323/\">GrApple (Eos Pro) 2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1322/\">GrApple (Eos) 2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2215/\">SyncMab 2.0</a></div><br/><div class=\"newitem\">Oak Vocabulary 0.4</div><br/><div class=\"newitem\">Tark (Temporary Bookmarks) 0.2</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2696/\">OakIME 0.2</a></div>");'></div>
+<div class='nbar' style='height: 40px; left:80px;' onmouseover='setData("<h1>4 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1323/\">GrApple (Eos Pro) 2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1322/\">GrApple (Eos) 2.0</a></div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2215/\">SyncMab 2.0</a></div><br/><div class=\"newitem\">Oak Vocabulary 0.4</div><br/><div class=\"newitem\">Tark (Temporary Bookmarks) 0.2</div><br/><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2696/\">OakIME 0.2</a></div>");'></div>
+<div class='xlabel' style='left:80px;'>4</div>
+<div class='obar' style='height: 20px; left:100px;' onmouseover='setData("<h1>5 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1991/\">GeoLocateFox 0.1.2</a></div>");'></div>
+<div class='nbar' style='height: 0px; left:100px;' onmouseover='setData("<h1>5 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1991/\">GeoLocateFox 0.1.2</a></div>");'></div>
+<div class='xlabel' style='left:100px;'>5</div>
+<div class='obar' style='height: 40px; left:120px;' onmouseover='setData("<h1>6 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/658/\">Back to Top 3.2</a></div><br/><div class=\"newitem\">VRE Toolbar 1.21</div>");'></div>
+<div class='nbar' style='height: 20px; left:120px;' onmouseover='setData("<h1>6 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/658/\">Back to Top 3.2</a></div><br/><div class=\"newitem\">VRE Toolbar 1.21</div>");'></div>
+<div class='xlabel' style='left:120px;'>6</div>
+<div class='obar' style='height: 20px; left:140px;' onmouseover='setData("<h1>7 days</h1><div class=\"newitem\">Ook? Video Ook! 0.3</div>");'></div>
+<div class='nbar' style='height: 20px; left:140px;' onmouseover='setData("<h1>7 days</h1><div class=\"newitem\">Ook? Video Ook! 0.3</div>");'></div>
+<div class='xlabel' style='left:140px;'>7</div>
+<div class='obar' style='height: 0px; left:160px;' onmouseover='setData("<h1>8 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:160px;' onmouseover='setData("<h1>8 days</h1>");'></div>
+<div class='xlabel' style='left:160px;'>8</div>
+<div class='obar' style='height: 20px; left:180px;' onmouseover='setData("<h1>9 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2469/\">Online Bookmark Manager Synchronizer 1.0.1</a></div>");'></div>
+<div class='nbar' style='height: 0px; left:180px;' onmouseover='setData("<h1>9 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/2469/\">Online Bookmark Manager Synchronizer 1.0.1</a></div>");'></div>
+<div class='xlabel' style='left:180px;'>9</div>
+<div class='obar' style='height: 0px; left:200px;' onmouseover='setData("<h1>10 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:200px;' onmouseover='setData("<h1>10 days</h1>");'></div>
+<div class='xlabel' style='left:200px;'>10</div>
+<div class='obar' style='height: 20px; left:220px;' onmouseover='setData("<h1>11 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/561/\">Russ Key 1.4.11</a></div>");'></div>
+<div class='nbar' style='height: 0px; left:220px;' onmouseover='setData("<h1>11 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/561/\">Russ Key 1.4.11</a></div>");'></div>
+<div class='xlabel' style='left:220px;'>11</div>
+<div class='obar' style='height: 40px; left:240px;' onmouseover='setData("<h1>12 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1907/\">Mostly Crystal Small (for Mozilla - Mac only) 1.0.0.8</a></div><br/><div class=\"newitem\">SenderFace 0.9.4</div>");'></div>
+<div class='nbar' style='height: 20px; left:240px;' onmouseover='setData("<h1>12 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/1907/\">Mostly Crystal Small (for Mozilla - Mac only) 1.0.0.8</a></div><br/><div class=\"newitem\">SenderFace 0.9.4</div>");'></div>
+<div class='xlabel' style='left:240px;'>12</div>
+<div class='obar' style='height: 0px; left:260px;' onmouseover='setData("<h1>13 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:260px;' onmouseover='setData("<h1>13 days</h1>");'></div>
+<div class='xlabel' style='left:260px;'>13</div>
+<div class='obar' style='height: 0px; left:280px;' onmouseover='setData("<h1>14 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:280px;' onmouseover='setData("<h1>14 days</h1>");'></div>
+<div class='xlabel' style='left:280px;'>14</div>
+<div class='obar' style='height: 20px; left:300px;' onmouseover='setData("<h1>15 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/576/\">Display mailing list header 0.3.1</a></div>");'></div>
+<div class='nbar' style='height: 0px; left:300px;' onmouseover='setData("<h1>15 days</h1><div class=\"olditem\"><a href=\"https://addons.mozilla.org/firefox/576/\">Display mailing list header 0.3.1</a></div>");'></div>
+<div class='xlabel' style='left:300px;'>15</div>
+<div class='obar' style='height: 40px; left:320px;' onmouseover='setData("<h1>16 days</h1><div class=\"newitem\">KnujOn 0.2</div><br/><div class=\"newitem\">Abbeyphone VoIP 0.9.6.0</div>");'></div>
+<div class='nbar' style='height: 40px; left:320px;' onmouseover='setData("<h1>16 days</h1><div class=\"newitem\">KnujOn 0.2</div><br/><div class=\"newitem\">Abbeyphone VoIP 0.9.6.0</div>");'></div>
+<div class='xlabel' style='left:320px;'>16</div>
+<div class='obar' style='height: 0px; left:340px;' onmouseover='setData("<h1>17 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:340px;' onmouseover='setData("<h1>17 days</h1>");'></div>
+<div class='xlabel' style='left:340px;'>17</div>
+<div class='obar' style='height: 0px; left:360px;' onmouseover='setData("<h1>18 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:360px;' onmouseover='setData("<h1>18 days</h1>");'></div>
+<div class='xlabel' style='left:360px;'>18</div>
+<div class='obar' style='height: 0px; left:380px;' onmouseover='setData("<h1>19 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:380px;' onmouseover='setData("<h1>19 days</h1>");'></div>
+<div class='xlabel' style='left:380px;'>19</div>
+<div class='obar' style='height: 0px; left:400px;' onmouseover='setData("<h1>20 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:400px;' onmouseover='setData("<h1>20 days</h1>");'></div>
+<div class='xlabel' style='left:400px;'>20</div>
+<div class='obar' style='height: 0px; left:420px;' onmouseover='setData("<h1>21 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:420px;' onmouseover='setData("<h1>21 days</h1>");'></div>
+<div class='xlabel' style='left:420px;'>21</div>
+<div class='obar' style='height: 0px; left:440px;' onmouseover='setData("<h1>22 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:440px;' onmouseover='setData("<h1>22 days</h1>");'></div>
+<div class='xlabel' style='left:440px;'>22</div>
+<div class='obar' style='height: 0px; left:460px;' onmouseover='setData("<h1>23 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:460px;' onmouseover='setData("<h1>23 days</h1>");'></div>
+<div class='xlabel' style='left:460px;'>23</div>
+<div class='obar' style='height: 0px; left:480px;' onmouseover='setData("<h1>24 days</h1>");'></div>
+<div class='nbar' style='height: 0px; left:480px;' onmouseover='setData("<h1>24 days</h1>");'></div>
+<div class='xlabel' style='left:480px;'>24</div>
+<div class='obar' style='height: 20px; left:500px;' onmouseover='setData("<h1>25 days</h1><div class=\"newitem\">Spamato4Thunderbird 0.99</div>");'></div>
+<div class='nbar' style='height: 20px; left:500px;' onmouseover='setData("<h1>25 days</h1><div class=\"newitem\">Spamato4Thunderbird 0.99</div>");'></div>
+<div class='xlabel' style='left:500px;'>25</div>
+</body>
+</html>
+

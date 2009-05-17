@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Leslie Stewart</name>
+    <years>2006-2007</years>
+    <class id='ae-1179' teacher='Damon' room='117-119' name='Asian Experience' grade='A+' />
+    <class id='ta-213' teacher='Willard' room='213' name='TA' grade='' />
+    <class id='band-music' teacher='Edmonds' room='MUSIC' name='Band' grade='A+' />
+    <class id='art1-233' teacher='Cummings' room='233' name='Art I' grade='A+' />
+    <class id='art2-233' teacher='Cummings' room='233' name='Art II' grade='A' />
+    <class id='fren2-205' teacher='Romary' room='205' name='French II' grade='A' />
+    <class id='a2t-213' teacher='Willard' room='213' name='Algebra 2 - Trig' grade='A+' />
+    <class id='study-207' teacher='Mantini' room='207' name='Study Hall' grade='A+' />
+    <class id='study-???' teacher='???' room='???' name='Study Hall' grade='A+' />
+    <class id='sci9-218' teacher='Lenorovitz' room='218' name='Science 9' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-213' />
+            <mod id='fren2-205' />
+            <mod id='art1-233' />
+            <mod id='a2t-213' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-213' />
+            <mod id='band-music' />
+            <mod id='sci9-218' />
+            <mod id='study-207' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-213' />
+            <mod id='fren2-205' />
+            <mod id='art2-233' />
+            <mod id='a2t-213' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-213' />
+            <mod id='band-music' />
+            <mod id='sci9-218' />
+            <mod id='study-???' />
+        </day>
+    </semester>
+</schedule>

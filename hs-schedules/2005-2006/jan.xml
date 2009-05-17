@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Jan Kaim</name>
+    <years>2005-2006</years>
+    <class id='vb-220' teacher='Conrad' room='220' name='VB Programming' grade='A+' />
+    <class id='ta-219' teacher='Hall' room='219' name='TA' grade='' />
+    <class id='photo-233' teacher='Cummings' room='233' name='Beginning Photography' grade='A+' />
+    <class id='cwrt-109' teacher='Gabel' room='109' name='Creative Writing' grade='A+' />
+    <class id='capps-202' teacher='Schiller' room='202' name='Computer Applications' grade='A+' />
+    <class id='apb-210' teacher='Warren' room='210' name='AP Biology' grade='A+' />
+    <class id='wpsp-152' teacher='Coon' room='152' name='Writing Screen Plays' grade='A+' />
+    <class id='hist1-227' teacher='Damon' room='227' name='World History 1' grade='A+' />
+    <class id='pubs-101' teacher='Bahrenburg' room='101' name='Public Speaking' grade='A+' />
+    <class id='hist2-228' teacher='Price' room='228' name='World History 2' grade='A+' />
+    <class id='mmi-111' teacher='Coon' room='111' name='Modern Media Impact' grade='A+' />
+    <class id='pe-gym' teacher='Mallory' room='GYM' name='Physical Education' grade='A+' />
+    <class id='engl-101' teacher='Long' room='101' name='AP English Language' grade='A+' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A-' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='study-cafe' />
+            <mod id='ta-219' />
+            <mod id='apb-210' />
+            <mod id='hist1-227' />
+            <mod id='mmi-111' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='ta-219' />
+            <mod id='apb-210' />
+            <mod id='wpsp-152' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='cwrt-109' />
+            <mod id='ta-219' />
+            <mod id='apb-210' />
+            <mod id='pubs-101' />
+            <mod id='pe-gym' />
+        </day>
+        <day name='B'>
+            <mod id='capps-202' />
+            <mod id='ta-219' />
+            <mod id='apb-210' />
+            <mod id='hist2-228' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+</schedule>

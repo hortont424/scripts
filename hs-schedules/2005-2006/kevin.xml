@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Kevin Canada</name>
+    <years>2005-2006</years>
+    <class id='pe-gym' teacher='Mallory' room='Gym' name='Physical Education' grade='A+' />
+    <class id='phys-151' teacher='Derosiers' room='151' name='Engineering Physics' grade='A+' />
+    <class id='band-music' teacher='Edmunds' room='Music' name='Band' grade='A+' />
+    <class id='ta-151' teacher='Derosiers' room='151' name='TA' grade='' />
+    <class id='calc-213' teacher='Willard' room='213' name='AP Calculus' grade='A+' />
+    <class id='hist1-228' teacher='Price' room='228' name='World History I' grade='A' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A-' />
+    <class id='pubs-109' teacher='Bahrenburg' room='109' name='Public Speaking' grade='A+' />
+    <class id='popl-201' teacher='Coon' room='201' name='Popular Literature' grade='A' />
+    <class id='psyc-111' teacher='Van Kleeck' room='111' name='Psychology' grade='A' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='band-music' />
+            <mod id='ta-151' />
+            <mod id='study-cafe' />
+            <mod id='phys-151' />
+            <mod id='hist1-228' />
+        </day>
+        <day name='B'>
+            <mod id='pe-gym' />
+            <mod id='ta-151' />
+            <mod id='calc-213' />
+            <mod id='phys-151' />
+            <mod id='pubs-109' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='band-music' />
+            <mod id='ta-151' />
+            <mod id='study-cafe' />
+            <mod id='phys-151' />
+            <mod id='psyc-111' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='ta-151' />
+            <mod id='calc-213' />
+            <mod id='phys-151' />
+            <mod id='popl-201' />
+        </day>
+    </semester>
+</schedule>

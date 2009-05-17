@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Leslie Appleget</name>
+    <years>2008-2009</years>
+    <class id='apbio-210' teacher='Warren' room='210' name='AP Biology' />
+    <class id='ta-???' teacher='Bahrenburg' room='???' name='TA' />
+    <class id='life-200' teacher='Laquerre' room='200' name='Life 101' />
+    <class id='algtri-217' teacher='Whitney' room='217' name='Algebra II/Trigonometry' />
+    <class id='fr1-205' teacher='Romary' room='205' name='French I' />
+    <class id='apam-103' teacher='Fiske' room='103' name='AP American History' />
+    <class id='fr4-203' teacher='Sutliff' room='203' name='French IV' />
+    <class id='pe1-gym' teacher='???' room='Gym' name='Physical Education' />
+    <class id='apeng-105' teacher='Long' room='105' name='AP English Language' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='fr4-203' />
+            <mod id='ta-???' />
+            <mod id='algtri-217' />
+            <mod id='life-200' />
+            <mod id='apbio-210' />
+        </day>
+        <day name='B'>
+            <mod id='apam-103' />
+            <mod id='ta-???' />
+            <mod id='pe1-gym' />
+            <mod id='apeng-105' />
+            <mod id='apbio-210' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='fr4-203' />
+            <mod id='ta-???' />
+            <mod id='algtri-217' />
+            <mod id='???-???' />
+            <mod id='apbio-210' />
+        </day>
+        <day name='B'>
+            <mod id='apam-103' />
+            <mod id='ta-???' />
+            <mod id='???-???' />
+            <mod id='apeng-105' />
+            <mod id='apbio-210' />
+        </day>
+    </semester>
+</schedule>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>A J</name>
+    <years>2006-2007</years>
+    <class id='ae-1139' teacher='Fiske' room='113-115' name='Asian Experience' grade='A+' />
+    <class id='ta-???' teacher='???' room='???' name='TA' grade='' />
+    <class id='band-music' teacher='Edmonds' room='MUSIC' name='Band' grade='A+' />
+    <class id='geo-215' teacher='Kramer' room='215' name='Geometry' grade='A+' />
+    <class id='ebio-210' teacher='Warren' room='210' name='Experimental Biology' grade='A' />
+    <class id='fren2-201' teacher='Romary' room='201' name='French II' grade='A' />
+    <class id='pe-gym' teacher='Samler/Perry' room='GYM' name='Physical Education' grade='A+' />
+    <class id='study-???' teacher='???' room='???' name='Study Hall' grade='A+' />
+    <class id='sci9-218' teacher='Baron' room='218' name='Science 9' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='sci9-218' />
+            <mod id='ta-???' />
+            <mod id='ebio-210' />
+            <mod id='ae-1139' />
+            <mod id='pe-gym' />
+        </day>
+        <day name='B'>
+            <mod id='geo-215' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='ae-1139' />
+            <mod id='fren2-201' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='sci9-218' />
+            <mod id='ta-???' />
+            <mod id='ebio-210' />
+            <mod id='ae-1139' />
+            <mod id='pe-gym' />
+        </day>
+        <day name='B'>
+            <mod id='geo-215' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='ae-1139' />
+            <mod id='fren2-201' />
+        </day>
+    </semester>
+</schedule>

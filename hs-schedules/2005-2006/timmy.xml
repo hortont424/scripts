@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Tim Johnson</name>
+    <years>2005-2006</years>
+    <class id='chem-214' teacher='Richey' room='214' name='Accelerated Chemistry' grade='A+' />
+    <class id='ta-weight' teacher='Mallory' room='Weight' name='TA' grade='' />
+    <class id='pcal-217' teacher='Devino' room='217' name='Pre-Calculus' grade='A+' />
+    <class id='fren-205' teacher='Sutliff' room='205' name='French IV' grade='A+' />
+    <class id='hist1-227' teacher='Damon' room='227' name='World History I' grade='A' />
+    <class id='hist2-228' teacher='Price' room='228' name='World History II' grade='A' />
+    <class id='engl-101' teacher='Long' room='101' name='AP English' grade='A+' />
+    <class id='cwrt-109' teacher='Gabel' room='109' name='Creative Writing' grade='A+' />
+    <class id='geo-???' teacher='Pinkham' room='???' name='Geography' grade='A+' />
+    <class id='pe-gym' teacher='Mallory' room='Gym' name='Physical Education' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='pcal-217' />
+            <mod id='hist1-227' />
+            <mod id='pe-gym' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='fren-205' />
+            <mod id='cwrt-109' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='pcal-217' />
+            <mod id='geo-???' />
+            <mod id='pe-gym' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='fren-205' />
+            <mod id='hist2-228' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+</schedule>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Kaitlyn Barton</name>
+    <years>2005-2006</years>
+    <class id='pott-235' teacher='Cannizzaro' room='235' name='Pottery I' grade='A+' />
+    <class id='band-music' teacher='Edmunds' room='Music' name='Band' grade='A+' />
+    <class id='ta-151' teacher='Derosiers' room='151' name='TA' grade='' />
+    <class id='chem-212' teacher='Sandage' room='212' name='Chemistry' grade='' />
+    <class id='hist1-227' teacher='Damon' room='227' name='World History I' grade='A+' />
+    <class id='hist2-228' teacher='Price' room='228' name='World History II' grade='A+' />
+    <class id='l101-211' teacher='Lacquerre' room='211' name='Life 101' grade='A+' />
+    <class id='popl-227' teacher='Coon' room='227' name='Popular Literature' grade='A+' />
+    <class id='alg2-209' teacher='Conrad' room='209' name='Algebra II' grade='A' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A-' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='band-music' />
+            <mod id='ta-151' />
+            <mod id='chem-212' />
+            <mod id='hist1-227' />
+            <mod id='alg2-209' />
+        </day>
+        <day name='B'>
+            <mod id='pott-235' />
+            <mod id='ta-151' />
+            <mod id='chem-212' />
+            <mod id='study-cafe' />
+            <mod id='study-cafe' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='band-music' />
+            <mod id='ta-151' />
+            <mod id='chem-212' />
+            <mod id='hist2-228' />
+            <mod id='alg2-209' />
+        </day>
+        <day name='B'>
+            <mod id='pott-235' />
+            <mod id='ta-151' />
+            <mod id='chem-212' />
+            <mod id='l101-211' />
+            <mod id='study-cafe' />
+        </day>
+    </semester>
+</schedule>

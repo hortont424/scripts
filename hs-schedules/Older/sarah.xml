@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Sarah Betancourt</name>
+    <years>2006-2007</years>
+    <class id='apeuro-111' teacher='Price' room='111' name='AP European History' grade='' />
+    <class id='sf-band' teacher='Bahren' room='Band' name='Senior Forum' grade='' />
+    <class id='gps-213' teacher='Willard' room='213' name='GPS and Astronomy' grade='A+' />
+    <class id='aplit-101' teacher='Mullen' room='101' name='AP English Literature' grade='A+' />
+    <class id='for-212' teacher='Boehmke' room='212' name='Forensics' grade='A+' />
+    <class id='srsem-227' teacher='McCannell' room='227' name='Senior Seminar' grade='A+' />
+    <class id='mmi-227' teacher='McCannell' room='227' name='Modern Media Impact' grade='A+' />
+    <class id='apbio-210' teacher='Warren' room='210' name='AP Biology' grade='A+' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='apeuro-111' />
+            <mod id='sf-band' />
+            <mod id='study-cafe' />
+            <mod id='aplit-101' />
+            <mod id='apbio-210' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='sf-band' />
+            <mod id='mmi-227' />
+            <mod id='for-212' />
+            <mod id='apbio-210' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='apeuro-111' />
+            <mod id='sf-band' />
+            <mod id='study-cafe' />
+            <mod id='aplit-101' />
+            <mod id='apbio-210' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='sf-band' />
+            <mod id='gps-213' />
+            <mod id='srsem-227' />
+            <mod id='apbio-210' />
+        </day>
+    </semester>
+</schedule>

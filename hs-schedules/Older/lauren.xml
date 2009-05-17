@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Lauren Olson</name>
+    <years>2006-2007</years>
+    <class id='ae-1179' teacher='Damon' room='117-119' name='Asian Experience' grade='A+' />
+    <class id='ta-113' teacher='Bahrenburg' room='113' name='TA' grade='' />
+    <class id='pe-gym' teacher='Samler' room='GYM' name='Physical Education' grade='A+' />
+    <class id='fren2-201' teacher='Romary' room='201' name='French II' grade='A' />
+    <class id='sci9-218' teacher='Baron' room='218' name='Science 9' grade='A' />
+    <class id='alg1-215' teacher='Kramer' room='215' name='Algebra 1' grade='A+' />
+    <class id='study-117' teacher='Lenox' room='117' name='Study Hall' grade='A+' />
+    <class id='study-119' teacher='Landry' room='119' name='Study Hall' grade='A+' />
+    <class id='art1-233' teacher='Cummings' room='233' name='Art I' grade='A+' />
+    <class id='art2-233' teacher='Cummings' room='233' name='Art II' grade='A+' />
+    <class id='heco-200' teacher='Laquerre' room='200' name='Human Ecology' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-113' />
+            <mod id='sci9-218' />
+            <mod id='art1-233' />
+            <mod id='fren2-201' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-113' />
+            <mod id='study-117' />
+            <mod id='heco-200' />
+            <mod id='alg1-215' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-113' />
+            <mod id='sci9-218' />
+            <mod id='art2-233' />
+            <mod id='fren2-201' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-113' />
+            <mod id='study-119' />
+            <mod id='pe-gym' />
+            <mod id='alg1-215' />
+        </day>
+    </semester>
+</schedule>

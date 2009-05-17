@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Andrew Barton</name>
+    <years>2005-2006</years>
+    <class id='chem-214' teacher='Richey' room='214' name='Accelerated Chemistry' grade='A+' />
+    <class id='ta-105' teacher='Bahrenburg' room='105' name='TA' grade='' />
+    <class id='pcal-217' teacher='Devino' room='217' name='Pre-Calculus' grade='A+' />
+    <class id='fren-205' teacher='Sutliff' room='205' name='French IV' grade='A+' />
+    <class id='dred-???' teacher='???' room='???' name='Drivers Ed' grade='A+' />
+    <class id='hist1-228' teacher='Price' room='228' name='World History I' grade='A' />
+    <class id='hist2-228' teacher='Price' room='228' name='World History II' grade='A' />
+    <class id='engl-101' teacher='Bahrenburg' room='101' name='AP English' grade='A+' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A-' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-105' />
+            <mod id='pcal-217' />
+            <mod id='dred-???' />
+            <mod id='hist1-228' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-105' />
+            <mod id='fren-205' />
+            <mod id='engl-101' />
+            <mod id='study-cafe' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-105' />
+            <mod id='pcal-217' />
+            <mod id='hist2-228' />
+            <mod id='study-cafe' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-105' />
+            <mod id='fren-205' />
+            <mod id='engl-101' />
+            <mod id='study-cafe' />
+        </day>
+    </semester>
+</schedule>

@@ -1,0 +1,439 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     20454,        430]
+NotebookOptionsPosition[     20129,        414]
+NotebookOutlinePosition[     20465,        429]
+CellTagsIndexPosition[     20422,        426]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"GraphPlot", "[", 
+  RowBox[{
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"\"\<Tim Horton\>\"", "\[Rule]", "\"\<Andrew Barton\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Tim Horton\>\"", "\[Rule]", "\"\<Sarah Betancourt\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Tim Horton\>\"", "\[Rule]", "\"\<Stuart J.\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Tim Horton\>\"", "\[Rule]", "\"\<Eric Weissenstein\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Andrew Barrows\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Sarah Betancourt\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Katelyn Blair\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Kevin C\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Sarah Cutler\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Trista Dufresne\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Ashley Elkins\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Tim Horton\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Stuart J.\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Jan P. Kaim\>\""}], ",",
+      "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Andy Lamson\>\""}], ",",
+      "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Liz Mooney\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Alison Nolin\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Amanda Smith\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Ryan Tindall\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Eric Weissenstein\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Lani Willard\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Andrew Barton\>\"", "\[Rule]", "\"\<Rebekah Ann Yana\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Will Anderson\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Tristan B.\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Andrew Barton\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Julie Bee\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Bryce Bludevich\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Maria Burrow\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Kevin C\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Jill Fortin\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Michael Guerin\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Angella Hamlin\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Tim Horton\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Rob Hyman\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Stuart J.\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Jan P. Kaim\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Justin Lewis\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Brittany Loomis\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Caitlyn Miller\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Dave Newman\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Alex Niquette\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Kelsey Reed\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Victoria Richland\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Jessica Richland\>\""}], ",",
+      "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Amanda Smith\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Kara Sowles\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Rachel Taylor\>\""}],
+      ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Nikki Thibault\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Ryan Tindall\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Eric Weissenstein\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Lani Willard\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Sarah Betancourt\>\"", "\[Rule]", "\"\<Aaron Wood\>\""}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<Stuart J.\>\"", "\[Rule]"}], ","}], "\[IndentingNewLine]", 
+    "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"VertexLabeling", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.3917934208397303`*^9, 3.391793517814149*^9}, {
+  3.3917935774359217`*^9, 3.391793969114027*^9}, {3.391794086117096*^9, 
+  3.391794090593341*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[CompressedData["
+1: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
+61p8d42AvqSVNPWvYsN/AH3IIBA=
+    "], {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,
+         56, 2}, {1, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 
+        71, 72, 3}, {1, 4}, {1, 5}, {2, 6}, {2, 73, 74, 75, 76, 77, 78, 79, 
+        80, 81, 82, 83, 84, 85, 86, 87, 88, 3}, {2, 7}, {2, 8}, {2, 9}, {2, 
+        10}, {2, 11}, {2, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 
+        101, 102, 103, 104, 1}, {2, 4}, {2, 12}, {2, 13}, {2, 14}, {2, 15}, {
+        2, 16}, {2, 17}, {2, 5}, {2, 18}, {2, 19}, {3, 20}, {3, 21}, {3, 105, 
+        106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 
+        120, 2}, {3, 22}, {3, 23}, {3, 24}, {3, 8}, {3, 25}, {3, 26}, {3, 
+        27}, {3, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 
+        133, 134, 135, 136, 1}, {3, 28}, {3, 4}, {3, 12}, {3, 29}, {3, 30}, {
+        3, 31}, {3, 32}, {3, 33}, {3, 34}, {3, 35}, {3, 36}, {3, 16}, {3, 
+        37}, {3, 38}, {3, 39}, {3, 17}, {3, 5}, {3, 18}, {3, 40}}]}, {
+      InsetBox[
+       FrameBox["\<\"Tim Horton\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 1], InsetBox[
+       FrameBox["\<\"Andrew Barton\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 2], InsetBox[
+       FrameBox["\<\"Sarah Betancourt\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 3], InsetBox[
+       FrameBox["\<\"Stuart J.\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 4], InsetBox[
+       FrameBox["\<\"Eric Weissenstein\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 5], InsetBox[
+       FrameBox["\<\"Andrew Barrows\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 6], InsetBox[
+       FrameBox["\<\"Katelyn Blair\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 7], InsetBox[
+       FrameBox["\<\"Kevin C\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 8], InsetBox[
+       FrameBox["\<\"Sarah Cutler\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 9], InsetBox[
+       FrameBox["\<\"Trista Dufresne\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 10], InsetBox[
+       FrameBox["\<\"Ashley Elkins\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 11], InsetBox[
+       FrameBox["\<\"Jan P. Kaim\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 12], InsetBox[
+       FrameBox["\<\"Andy Lamson\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 13], InsetBox[
+       FrameBox["\<\"Liz Mooney\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 14], InsetBox[
+       FrameBox["\<\"Alison Nolin\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 15], InsetBox[
+       FrameBox["\<\"Amanda Smith\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 16], InsetBox[
+       FrameBox["\<\"Ryan Tindall\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 17], InsetBox[
+       FrameBox["\<\"Lani Willard\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 18], InsetBox[
+       FrameBox["\<\"Rebekah Ann Yana\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 19], InsetBox[
+       FrameBox["\<\"Will Anderson\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 20], InsetBox[
+       FrameBox["\<\"Tristan B.\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 21], InsetBox[
+       FrameBox["\<\"Julie Bee\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 22], InsetBox[
+       FrameBox["\<\"Bryce Bludevich\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 23], InsetBox[
+       FrameBox["\<\"Maria Burrow\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 24], InsetBox[
+       FrameBox["\<\"Jill Fortin\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 25], InsetBox[
+       FrameBox["\<\"Michael Guerin\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 26], InsetBox[
+       FrameBox["\<\"Angella Hamlin\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 27], InsetBox[
+       FrameBox["\<\"Rob Hyman\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 28], InsetBox[
+       FrameBox["\<\"Justin Lewis\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 29], InsetBox[
+       FrameBox["\<\"Brittany Loomis\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 30], InsetBox[
+       FrameBox["\<\"Caitlyn Miller\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 31], InsetBox[
+       FrameBox["\<\"Dave Newman\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 32], InsetBox[
+       FrameBox["\<\"Alex Niquette\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 33], InsetBox[
+       FrameBox["\<\"Kelsey Reed\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 34], InsetBox[
+       FrameBox["\<\"Victoria Richland\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 35], InsetBox[
+       FrameBox["\<\"Jessica Richland\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 36], InsetBox[
+       FrameBox["\<\"Kara Sowles\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 37], InsetBox[
+       FrameBox["\<\"Rachel Taylor\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 38], InsetBox[
+       FrameBox["\<\"Nikki Thibault\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 39], InsetBox[
+       FrameBox["\<\"Aaron Wood\"\>",
+        Background->RGBColor[1, 1, 0.8],
+        FrameStyle->RGBColor[0.94, 0.85, 0.36],
+        StripOnInput->False], 40]}}],
+   Annotation[#, 
+    VertexCoordinateRules -> {{1.976346886307678, 0.8407066260358149}, {
+     1.1153506623992715`, 1.1162992678446342`}, {2.8411354481229085`, 
+     1.1229949414118734`}, {2.0093925924181724`, 1.0975648788312007`}, {
+     1.7450240870016178`, 0.7867220114285626}, {0.037883874897200354`, 
+     1.43720612241615}, {0.3731520992955524, 0.41969175378280976`}, {
+     1.8752753675732656`, 0.5511675650970508}, {0.6248364062824303, 
+     1.9766583846675265`}, {0.654580393460938, 0.24318364298935324`}, {
+     0.360092609682642, 0.9550291999342626}, {1.745562801692399, 
+     1.138820074247671}, {0.38427839176302125`, 1.4747692045802732`}, {0., 
+     1.0338735812363218`}, {0.28294329255180894`, 1.8260925149159966`}, {
+     1.7368173688969533`, 1.4447107920423083`}, {1.849933663945898, 
+     1.6840785527197433`}, {2.0028496603668207`, 1.4291853341485263`}, {
+     0.11042920818668689`, 0.6539395233869467}, {2.7852489268193366`, 
+     2.262115508102643}, {3.49842151744798, 0.7633238617469345}, {
+     3.7329030593342263`, 0.3971432439755085}, {4.0129156826293535`, 
+     1.2638041279024432`}, {3.5290031624214806`, 0.1349684057706234}, {
+     3.168761090533411, 0.045057373243130305`}, {2.4769197172751696`, 
+     2.073086855568688}, {3.5787727306761, 1.5240328819916555`}, {
+     3.9545689146876972`, 0.9571549144140942}, {3.556943143920177, 
+     1.1272007788437641`}, {3.2639283170640234`, 0.41901375275881036`}, {
+     2.8276596538148846`, 1.838346137792048}, {2.830192633241807, 
+     0.3940575458345603}, {3.2461337323929236`, 1.7965552273761038`}, {
+     2.849032189270311, 0.}, {3.9374041679913927`, 0.657958412735024}, {
+     3.7137810058142064`, 1.8700536642249008`}, {3.471728214239755, 
+     2.114182311267301}, {3.130798393005044, 2.2043113694696226`}, {
+     2.499242446190684, 0.14111297629863306`}, {3.9585681394079373`, 
+     1.6019001029171758`}}]& ],
+  AspectRatio->Automatic,
+  FrameTicks->None,
+  ImageSize->{1007., Automatic},
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ CellChangeTimes->{{3.391793455976428*^9, 3.391793465122572*^9}, 
+   3.391793518797578*^9, 3.39179373539424*^9, {3.391793940777318*^9, 
+   3.391793969389782*^9}}]
+}, Open  ]]
+},
+WindowSize->{1183, 852},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"6.0 for Mac OS X x86 (32-bit) (April 20, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 6338, 124, 964, "Input"],
+Cell[6931, 149, 13182, 262, 583, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

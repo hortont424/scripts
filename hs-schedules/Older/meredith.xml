@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Meredith Manning</name>
+    <years>2006-2007</years>
+    <class id='ae-1179' teacher='Damon' room='117-119' name='Asian Experience' grade='A+' />
+    <class id='ta-218' teacher='Robinson' room='218' name='TA' grade='' />
+    <class id='band-music' teacher='Edmonds' room='MUSIC' name='Band' grade='A+' />
+    <class id='pe-gym' teacher='Samler' room='GYM' name='Physical Education' grade='A+' />
+    <class id='heco-152' teacher='Lacqerre' room='152' name='Human Ecology' grade='A' />
+    <class id='fren2-201' teacher='Romary' room='201' name='French II' grade='A' />
+    <class id='a2t-217' teacher='Sommariva' room='217' name='Algebra 2 - Trig' grade='A+' />
+    <class id='study-207' teacher='Mantini' room='207' name='Study Hall' grade='A+' />
+    <class id='study-???' teacher='Minor' room='???' name='Study Hall' grade='A+' />
+    <class id='sci9-218' teacher='Baron' room='218' name='Science 9' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-218' />
+            <mod id='sci9-218' />
+            <mod id='a2t-217' />
+            <mod id='fren2-201' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-218' />
+            <mod id='band-music' />
+            <mod id='pe-gym' />
+            <mod id='study-207' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-218' />
+            <mod id='sci9-218' />
+            <mod id='a2t-217' />
+            <mod id='fren2-201' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-218' />
+            <mod id='band-music' />
+            <mod id='heco-152' />
+            <mod id='study-???' />
+        </day>
+    </semester>
+</schedule>

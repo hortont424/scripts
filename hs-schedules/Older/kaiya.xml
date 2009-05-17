@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Kaiya Provost</name>
+    <years>2006-2007</years>
+    <class id='ae-1179' teacher='Damon' room='117-119' name='Asian Experience' grade='A+' />
+    <class id='ta-208' teacher='???' room='208' name='TA' grade='' />
+    <class id='span1-207' teacher='Mantini' room='207' name='Spanish I' grade='A+' />
+    <class id='pe-gym' teacher='Perry' room='GYM' name='Physical Education' grade='A+' />
+    <class id='a2t-213' teacher='Willard' room='213' name='Algebra 2 - Trig' grade='A+' />
+    <class id='sci9-218' teacher='Lenorovitz' room='218' name='Science 9' grade='A+' />
+    <class id='band-music' teacher='Edmonds' room='MUSIC' name='Band' grade='A+' />
+    <class id='study-217' teacher='Willard' room='217' name='Study Hall' grade='A+' />
+    <class id='study-???' teacher='Minor' room='???' name='Study Hall' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-208' />
+            <mod id='span1-207' />
+            <mod id='pe-gym' />
+            <mod id='a2t-213' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-208' />
+            <mod id='band-music' />
+            <mod id='sci9-218' />
+            <mod id='study-217' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='ae-1179' />
+            <mod id='ta-208' />
+            <mod id='span1-207' />
+            <mod id='pe-gym' />
+            <mod id='a2t-213' />
+        </day>
+        <day name='B'>
+            <mod id='ae-1179' />
+            <mod id='ta-208' />
+            <mod id='band-music' />
+            <mod id='sci9-218' />
+            <mod id='study-???' />
+        </day>
+    </semester>
+</schedule>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Amy Horton</name>
+    <years>2008-2009</years>
+    <class id='dred-201' teacher='Van Kleek' room='201' name='Driver Education' />
+    <class id='ta-107' teacher='Sharkey' room='???' name='TA' />
+    <class id='pri-220' teacher='Desrosiers' room='220' name='Principals of Physics' />
+    <class id='calc-213' teacher='Willard' room='213' name='AP Calculus' />
+    <class id='fr1-205' teacher='Romary' room='205' name='French I' />
+    <class id='apam-105' teacher='McGuire' room='105' name='AP American History' />
+    <class id='sp4-203' teacher='Miga' room='203' name='Spanish IV' />
+    <class id='phil-111' teacher='Price' room='111' name='Philosophy' />
+    <class id='apeng-115' teacher='Bahrenburg' room='115' name='AP English Language' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='dred-201' />
+            <mod id='ta-107' />
+            <mod id='fr1-205' />
+            <mod id='apam-105' />
+            <mod id='phil-111' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-107' />
+            <mod id='calc-213' />
+            <mod id='sp4-203' />
+            <mod id='apeng-115' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='???-???' />
+            <mod id='ta-107' />
+            <mod id='fr1-205' />
+            <mod id='apam-105' />
+            <mod id='???-???' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-107' />
+            <mod id='calc-213' />
+            <mod id='sp4-203' />
+            <mod id='apeng-115' />
+        </day>
+    </semester>
+</schedule>

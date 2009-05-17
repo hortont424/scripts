@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>AJ Hankinson</name>
+    <years>2008-2009</years>
+    <class id='creat-228' teacher='Coon' room='228' name='Creative Writing' />
+    <class id='ta-???' teacher='???' room='???' name='TA' />
+    <class id='algtri-213' teacher='Willard' room='213' name='Algebra II/ Trigonometry' />
+    <class id='humap-111' teacher='Price' room='111' name='Human Experience-Legacies' />
+    <class id='art2-233' teacher='Cummings' room='233' name='Art II' />
+    <class id='bus2-152' teacher='Schiller' room='152' name='Business and Technology II' />
+    <class id='fore-212' teacher='Sandage' room='212' name='Forensics' />
+    <class id='sp4-203' teacher='Miga' room='203' name='Spanish IV' />
+    <class id='apeng-115' teacher='Bahrenburgh' room='115' name='AP English Language' />
+    <class id='chem-212' teacher='Sandage' room='212' name='Chemistry' />
+    <class id='psy-???' teacher='Hammond' room='???' name='Psychology' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='humap-111' />
+            <mod id='ta-???' />
+            <mod id='art2-233' />
+            <mod id='chem-212' />
+            <mod id='algtri-213' />
+        </day>
+        <day name='B'>
+            <mod id='???-???' />
+            <mod id='ta-???' />
+            <mod id='fore-212' />
+            <mod id='sp4-203' />
+            <mod id='apeng-115' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='humap-111' />
+            <mod id='ta-???' />
+            <mod id='???-???' />
+            <mod id='chem-212' />
+            <mod id='algtri-213' />
+        </day>
+        <day name='B'>
+            <mod id='bus2-152' />
+            <mod id='ta-???' />
+            <mod id='creat-228' />
+            <mod id='sp4-203' />
+            <mod id='apeng-115' />
+        </day>
+    </semester>
+</schedule>

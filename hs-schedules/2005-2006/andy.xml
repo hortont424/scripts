@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Andy Lamson</name>
+    <years>2005-2006</years>
+    <class id='chem-214' teacher='Richey' room='214' name='Accelerated Chemistry' grade='A+' />
+    <class id='ta-weight' teacher='Mallory' room='Weight' name='TA' grade='' />
+    <class id='phys-151' teacher='Derosiers' room='151' name='AP Physics' grade='A+' />
+    <class id='calc-213' teacher='Willard' room='213' name='AP Calculus' grade='A+' />
+    <class id='hist1-111' teacher='Van Kleeck' room='111' name='World History I' grade='A' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A-' />
+    <class id='engl-101' teacher='Bahrenburg' room='101' name='AP English' grade='A+' />
+    <class id='art-233' teacher='Cummings' room='233' name='Art II' grade='A' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='hist1-111' />
+            <mod id='calc-213' />
+            <mod id='phys-151' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='study-cafe' />
+            <mod id='engl-101' />
+            <mod id='phys-151' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='study-cafe' />
+            <mod id='calc-213' />
+            <mod id='phys-151' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-weight' />
+            <mod id='art-233' />
+            <mod id='engl-101' />
+            <mod id='phys-151' />
+        </day>
+    </semester>
+</schedule>

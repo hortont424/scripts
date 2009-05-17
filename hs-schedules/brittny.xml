@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Brittny Dartt</name>
+    <years>2008-2009</years>
+    <class id='pe2-gym' teacher='???' room='Gym' name='Physical Education' />
+    <class id='ta-???' teacher='???' room='???' name='TA' />
+    <class id='chem-???' teacher='Sandage' room='???' name='Chemistry' />
+    <class id='alg3-???' teacher='Conrad' room='???' name='Algebra III' />
+    <class id='pho-???' teacher='Cummings' room='???' name='Photography' />
+    <class id='apam-103' teacher='Fiske' room='???' name='AP American History' />
+    <class id='sp4-203' teacher='Miga' room='203' name='Spanish IV' />
+    <class id='phil-111' teacher='Price' room='111' name='Philosophy' />
+    <class id='apeng-105' teacher='Long' room='???' name='AP English Language' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+	<class id='for-???' teacher='Bessy' room='???' name='Forensics' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='sp4-203' />
+            <mod id='ta-???' />
+            <mod id='chem-???' />
+            <mod id='???-???' />
+            <mod id='phil-111' />
+        </day>
+        <day name='B'>
+            <mod id='apam-103' />
+            <mod id='ta-???' />
+            <mod id='pho-???' />
+            <mod id='apeng-105' />
+            <mod id='alg3-???' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='sp4-203' />
+            <mod id='ta-???' />
+            <mod id='chem-???' />
+            <mod id='for-???' />
+            <mod id='pe2-gym' />
+        </day>
+        <day name='B'>
+            <mod id='apam-103' />
+            <mod id='ta-???' />
+            <mod id='???-???' />
+            <mod id='apeng-105' />
+            <mod id='???-???' />
+        </day>
+    </semester>
+</schedule>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Sarah Betancourt</name>
+    <years>2005-2006</years>
+    <class id='chem-214' teacher='Richey' room='214' name='Accelerated Chemistry' grade='A+' />
+    <class id='ta-217' teacher='Devino' room='217' name='TA' grade='' />
+    <class id='pcal-217' teacher='Devino' room='217' name='Pre-Calculus' grade='A+' />
+    <class id='phys-151' teacher='Derosiers' room='151' name='Engineering Physics' grade='A+' />
+    <class id='fren-205' teacher='Sutliff' room='205' name='French IV' grade='A+' />
+    <class id='hist1-228' teacher='Price' room='228' name='World History I' grade='A' />
+    <class id='engl-101' teacher='Long' room='101' name='AP English' grade='A+' />
+    <class id='phil-227' teacher='Damon' room='227' name='Philosophy' grade='A' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-217' />
+            <mod id='pcal-217' />
+            <mod id='phys-151' />
+            <mod id='hist1-228' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-217' />
+            <mod id='fren-205' />
+            <mod id='phys-151' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='chem-214' />
+            <mod id='ta-217' />
+            <mod id='pcal-217' />
+            <mod id='phys-151' />
+            <mod id='phil-227' />
+        </day>
+        <day name='B'>
+            <mod id='chem-214' />
+            <mod id='ta-217' />
+            <mod id='fren-205' />
+            <mod id='phys-151' />
+            <mod id='engl-101' />
+        </day>
+    </semester>
+</schedule>

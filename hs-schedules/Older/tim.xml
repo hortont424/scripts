@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Tim Horton</name>
+    <years>2006-2007</years>
+    <class id='apeuro-111' teacher='Price' room='111' name='AP European History' grade='' />
+    <class id='sf-103' teacher='Pinkham' room='103' name='Senior Forum' grade='' />
+    <class id='gps-213' teacher='Willard' room='213' name='GPS and Astronomy' grade='A+' />
+    <class id='aplit-107' teacher='Cole' room='107' name='AP English Literature' grade='A+' />
+    <class id='for-212' teacher='Sandage' room='212' name='Forensics' grade='A+' />
+    <class id='srsem-227' teacher='McCannell' room='227' name='Senior Seminar' grade='A+' />
+    <class id='dred-201' teacher='VanKleeck' room='201' name='Driver Education' grade='A+' />
+    <class id='apphys-220' teacher='Desrosiers' room='220' name='AP Physics' grade='A+' />
+    <class id='pe-gym' teacher='PE Staff' room='GYM' name='Physical Education' grade='A+' />
+    <class id='study-cafe' teacher='None' room='Cafe' name='Study Hall' grade='A+' />
+    <class id='study-202' teacher='Warden' room='202' name='Study Hall' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='apeuro-111' />
+            <mod id='sf-103' />
+            <mod id='aplit-107' />
+            <mod id='for-212' />
+            <mod id='apphys-220' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='sf-103' />
+            <mod id='pe-gym' />
+            <mod id='study-202' />
+            <mod id='apphys-220' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='apeuro-111' />
+            <mod id='sf-103' />
+            <mod id='aplit-107' />
+            <mod id='dred-201' />
+            <mod id='apphys-220' />
+        </day>
+        <day name='B'>
+            <mod id='study-cafe' />
+            <mod id='sf-103' />
+            <mod id='gps-213' />
+            <mod id='srsem-227' />
+            <mod id='apphys-220' />
+        </day>
+    </semester>
+</schedule>

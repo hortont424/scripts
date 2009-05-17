@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>Leslie Appleget</name>
+    <years>2006-2007</years>
+    <class id='ae-1179' teacher='Lenox' room='117-119' name='Asian Experience' grade='A+' />
+    <class id='ta-113' teacher='D. Bahrenburg' room='113' name='TA' grade='' />
+    <class id='band-music' teacher='Edmonds' room='MUSIC' name='Band' grade='A+' />
+    <class id='alg-215' teacher='Kramer' room='215' name='Algebra I' grade='A+' />
+    <class id='fren2-205' teacher='Romary' room='205' name='French II' grade='A' />
+    <class id='pe-gym' teacher='Romond' room='GYM' name='Physical Education' grade='A+' />
+    <class id='lbio-204' teacher='Lang' room='204' name='Lab Biology' grade='A+' />
+    <class id='sci9-216' teacher='Reilly' room='216' name='Science 9' grade='A+' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='sci9-216' />
+            <mod id='ta-113' />
+            <mod id='alg-215' />
+            <mod id='ae-1179' />
+            <mod id='lbio-204' />
+        </day>
+        <day name='B'>
+            <mod id='pe-gym' />
+            <mod id='ta-113' />
+            <mod id='band-music' />
+            <mod id='ae-1179' />
+            <mod id='fren2-205' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='sci9-216' />
+            <mod id='ta-113' />
+            <mod id='alg-215' />
+            <mod id='ae-1179' />
+            <mod id='lbio-204' />
+        </day>
+        <day name='B'>
+            <mod id='pe-gym' />
+            <mod id='ta-113' />
+            <mod id='band-music' />
+            <mod id='ae-1179' />
+            <mod id='fren2-205' />
+        </day>
+	</semester>
+</schedule>

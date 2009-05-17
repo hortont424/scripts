@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schedule>
+    <name>AJ Banach</name>
+    <years>2008-2009</years>
+    <class id='band-music' teacher='Edmonds' room='Music' name='Band' />
+    <class id='ta-???' teacher='???' room='???' name='TA' />
+    <class id='pri-220' teacher='Desrosiers' room='220' name='Principals of Physics' />
+    <class id='precalc-219' teacher='McClintok' room='???' name='Pre Calculus' />
+    <class id='fr4-???' teacher='Sutliff' room='???' name='French IV' />
+    <class id='humap-111' teacher='Price' room='111' name='Human Experience-Legacies' />
+    <class id='sp4-203' teacher='Miga' room='203' name='Spanish IV' />
+    <class id='expchem-214' teacher='Richey' room='214' name='Experimental Chemistry' />
+    <class id='engb-???' teacher='Blanchette' room='???' name='Human Experience-English' />
+	<class id='???-???' teacher='???' room='???' name='???' />
+    
+    <semester name='Fall'>
+        <day name='A'>
+            <mod id='fr4-???' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='humap-111' />
+            <mod id='???-???' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-???' />
+            <mod id='expchem-214' />
+            <mod id='engb-???' />
+            <mod id='precalc-219' />
+        </day>
+    </semester>
+    <semester name='Spring'>
+        <day name='A'>
+            <mod id='fr4-???' />
+            <mod id='ta-???' />
+            <mod id='band-music' />
+            <mod id='humap-111' />
+            <mod id='???-???' />
+        </day>
+        <day name='B'>
+            <mod id='pri-220' />
+            <mod id='ta-???' />
+            <mod id='expchem-214' />
+            <mod id='engb-???' />
+            <mod id='precalc-219' />
+        </day>
+    </semester>
+</schedule>
