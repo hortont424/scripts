@@ -52,5 +52,5 @@ if __name__ == '__main__':
         usage()
     else:
         comments = scrapeRedditAccount(sys.argv[1])
-        comments.sort(lambda x, y: cmp(int(re.sub(r"^<b>([0-9]*)</b> .*$",r"\1",x)), int(re.sub(r"^<b>([0-9]*)</b> .*$",r"\1",y))), reverse=True)
+        comments.sort(lambda x, y: cmp(int(re.sub(r"^<b>([\-0-9]*)</b> .*$",r"\1",x)), int(re.sub(r"^<b>([\-0-9]*)</b> .*$",r"\1",y))), reverse=True)
         print "".join(comments);
